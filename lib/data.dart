@@ -119,7 +119,7 @@ Future<String> serverabfrage(String seite, {Map<String, dynamic> arguments}) asy
   Map<String, dynamic> map = {'android_id': buildID+androidID};
   if (arguments != null) map.addAll(arguments);
   print("Anfrage wir geschickt: " + seite + "; " + map.toString());
-  var url = 'http://192.168.178.88/einkaufsliste/' + seite;
+  var url = 'http://192.168.0.100/einkaufsliste/' + seite;
   var response = await http.post(url, body: map);
 
 

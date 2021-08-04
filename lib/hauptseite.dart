@@ -23,6 +23,7 @@ class _HauptseiteState extends State<Hauptseite> {
   final Storage storage;
 
   _HauptseiteState(int gruppenid, this.storage) {
+    // Daten aus DB und Update
     // Data aus gespeichertem File
     storage.read().then((String data) {
       if (_gruppe != null) data = updateJson(data);

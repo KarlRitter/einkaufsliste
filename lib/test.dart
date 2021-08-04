@@ -3,7 +3,7 @@ import 'dart:ui';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import 'package:einkaufsliste_new/container.dart';
+import 'container.dart';
 
 class Test extends StatefulWidget {
   @override

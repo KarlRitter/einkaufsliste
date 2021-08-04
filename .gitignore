@@ -1,2 +1,17 @@
 # Androidstudio
 .idea/
+
+# gradle
+build/
+
+# flutter/dart
+.dart_tool
+.packages
+.flutter-plugins
+.flutter-plugins-dependencies
+.metadata
+pubspec.lock
+
+# android/ios
+android/
+ios/
